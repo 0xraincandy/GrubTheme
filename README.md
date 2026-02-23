@@ -6,7 +6,7 @@ git clone https://github.com/0xraincandy/GrubTheme.git
 ```
 then copy the repository to this directory
 ```
-sudo cp -r OsageChan_GRUB_theme /usr/share/grub/themes
+sudo cp -r GrubTheme /usr/share/grub/themes
 ```
 after this modify the grub config file
 ```
@@ -18,7 +18,7 @@ sudo nvim /etc/default/grub
 ```
 add this line
 ```
-GRUB_THEME="/usr/share/grub/themes/OsageChan_GRUB_theme/theme.txt"
+GRUB_THEME="/usr/share/grub/themes/GrubTheme/theme.txt"
 ```
 lastly update grub
 ```
